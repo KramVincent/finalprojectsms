@@ -84,7 +84,10 @@ Create an admin user for the application:
 ```bash
 python manage.py createsuperuser
 ```
+
+---
 ## Twilio Integration
+---
 
 ### 7. Create a Twilio Account
 Sign up at Twilio and retrieve your Account SID, Auth Token, and a Twilio Phone Number.
@@ -107,7 +110,9 @@ Confirm the required packages are installed:
 pip list
 ```
 
+---
 ## Usage
+---
 
 ### Run the Server
 Start the server:
@@ -121,22 +126,26 @@ python manage.py runserver
 ```
 
 ### Send SMS
--Use the provided functionality in the application to send SMS using the Twilio API.
+- Use the provided functionality in the application to send SMS using the Twilio API.
 
+---
 ## How the Application Works
+---
 
 ### Environment Variables
--Securely stores sensitive credentials like SECRET_KEY and Twilio API credentials in a .env file.
+- Securely stores sensitive credentials like SECRET_KEY and Twilio API credentials in a .env file.
 
 ### Twilio Integration
--Uses the Twilio SDK to connect with Twilio's API for sending SMS messages.
+- Uses the Twilio SDK to connect with Twilio's API for sending SMS messages.
 
 ### Admin Interface
--Manage the application via the Django Admin interface.
-
+- Manage the application via the Django Admin interface.
+  
+---
 ## Important Notes
--Do not share your .env file: It contains sensitive credentials.
--DEBUG Setting: Ensure DEBUG=False in production for security.
--Twilio Free Tier: If you're using a free Twilio account, verify the phone numbers before sending SMS.
+
+- Do not share your .env file: It contains sensitive credentials.
+- DEBUG Setting: Ensure DEBUG=False in production for security.
+- Twilio Free Tier: If you're using a free Twilio account, verify the phone numbers before sending SMS.
 
 
