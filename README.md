@@ -3,11 +3,10 @@
 ## Build a Django Web Application to Send SMS Using Twilio
 
 ### Submitted by:
-**GROUP 3**  
-- Eisan Carlos Atamosa  
-- Michelle Malto  
-- Guilbert Jan Cabual  
-
+**GROUP 5**  
+- Mark Vincent Esteban 
+- Almarie Maestrado
+  
 ---
 
 ## Table of Contents
@@ -54,7 +53,7 @@ Install the python-decouple package to manage environment variables:
 ```bash
 pip install python-decouple
 ```
-###3. Create a .env File
+### 3. Create a .env File
 Create a .env file in the root directory of your project (same folder as manage.py). Add the following variables:
 ```bash
 TWILIO_ACCOUNT_SID=your_twilio_account_sid
